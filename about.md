@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+My interest range from coding, writing, investing, traveling and attempting to make life fuller and simpler. My goal in life is to keep growing and learning. This blog is a place for me to [write to learn][1]. If turns out to be helpful for you than thats great!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I am currently @ product manager at Indeed.com. I live in Austin, TX with my wife. I like hiking, camping, travelling and reading.
 
-### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[1](https://wac.colostate.edu/resources/wac/intro/wtl/)
