@@ -6,7 +6,7 @@
 name: Michael Magan
 
 # Short bio or description (displayed in the header)
-description: Product Manager @ Indeed.
+description: My thoughts!
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/michaelmagan/MaganCactusWebsite/master/static/img/blog_image.jpg
@@ -41,7 +41,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: magan.info
+url: https://magan.info
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
