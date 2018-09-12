@@ -8,7 +8,8 @@ My interest range from coding, writing, investing, traveling and attempting to m
 
 ### More Information
 
-I am currently @ product manager at <Indeed.com>. I live in Austin, TX with my wife. I like hiking, camping, travelling and reading.
+I am currently @ product manager at [indeed.com]. I live in Austin, TX with my wife. I like hiking, camping, travelling and reading.
 
 
 [write to learn]:https://wac.colostate.edu/resources/wac/intro/wtl/
+[indeed.com]: https://indeed.com
