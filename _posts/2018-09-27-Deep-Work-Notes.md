@@ -1,4 +1,7 @@
-
+---
+layout: post
+tite: Deep Work Notes
+---
 The purpose of this post is to provide a comprehensive summary of my notes from the book [Deep Work][DW] by Cal Newport. It’s not meant to critique or provide analysis.
 
 # What is Deep Work?
