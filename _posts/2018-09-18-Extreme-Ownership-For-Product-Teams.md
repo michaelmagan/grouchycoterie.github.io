@@ -1,8 +1,7 @@
 ---
 layout: post
-tite: Extreme Ownership: For Product Teams 
+tite: Extreme Ownership For Product Teams 
 ---
-
 Over the last few weeks, I have been listening to Extreme Ownership by Jocko Willink and Leif Babin. The book covers lessons learned by Navy Seals Leadership in Iraq.  I enjoyed the principles they teach in this book and saw how they apply leading great product teams.
 
 I identified how to apply the strategies laid out in this book to product development. The book is extremely well organized and this post retains the same structure. The book has three main parts Winning the Battle Within, Law of Combat, and Sustaining Victory.
