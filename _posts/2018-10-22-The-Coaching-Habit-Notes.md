@@ -1,6 +1,7 @@
 ---
 layout: post
 tite: The Coaching Habit Notes
+tags: books, mangement, coaching, habits
 ---
 
 I was recently gifted [**The Coaching Habit**][CH] by Michael Bungay Stanier. I was participating in an onboarding program and leading product teams to launch and iterate in 10 weeks! For me, the new challenge was mentoring and coaching the teams. 
