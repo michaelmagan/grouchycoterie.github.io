@@ -9,7 +9,7 @@ Below are short summaries of the books I read:
   <p><b>by {{ book_summary.author }}</b> |
   <a href="{{ book_summary.url }}">Amazon</a> 
   | {% if book_summary.notes %} 
-  <a href="{{ site.baseurl }}/{{ link book_summary.notes }}/"> Full Summary </a> 
+  <a href="{{ site.url }}/{{ link book_summary.notes }}/"> Full Summary </a> 
   {% endif %}
 </p>
   <p>{{ book_summary.content | markdownify }}</p>
