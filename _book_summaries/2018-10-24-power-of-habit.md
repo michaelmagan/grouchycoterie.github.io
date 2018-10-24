@@ -1,7 +1,7 @@
 ---
 title: "The Power of Habit: Why We Do What We Do in Life and Business"
 author: Charles Duhigg
-url: https://www.amazon.com/Power-Habit-What-Life-Business/dp/081298160X
+amazon: https://www.amazon.com/Power-Habit-What-Life-Business/dp/081298160X
 notes: the-power-of-habit-notes
 ---
 

@@ -4,17 +4,18 @@ title: Book Summaries
 ---
 Below are short summaries of the books I read:
 
-{% for book_summary in site.book_summaries reversed %}
+{% assign reverse_book_summaries = site.book_summaries | reverse %}
+{% for book_summary in reverse_book_summaries %}
   <h2>{{ book_summary.title }}</h2>
   <p><b>by {{ book_summary.author }}</b> |
-  <a href="{{ book_summary.url }}">Amazon</a> 
+  <a href="{{ book_summary.amazon }}">Amazon</a> 
   | {% if book_summary.notes %} 
-  <a href="{{ site.url }}/{{ link book_summary.notes }}/"> Full Summary </a> 
+  <a href="{{ site.base }}/{{ book_summary.notes }}/"> Full Summary </a> 
   {% endif %}
 </p>
   <p>{{ book_summary.content | markdownify }}</p>
   {% if book_summary.notes %} 
-  <p> You can find my detailed summary <a href="{{ site.baseurl }}/{{link book_summary.notes}}/"> here </a>.
+  <p> You can find my detailed summary <a href="{{ site.baseurl }}/{{ book_summary.notes }}/"> here </a>.
   <hr>
   {% endif %}
 
