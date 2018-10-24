@@ -1,0 +1,22 @@
+---
+layout: default
+title: Book Summaries
+permalink: /book-summaries/
+---
+Below are short summaries of the books I read:
+
+{% for book_summary in site.book_summaries reversed %}
+  <h2>{{ book_summary.title }}</h2>
+  <p><b>by {{ book_summary.author }}</b> |
+  <a href="{{ book_summary.url }}">Amazon</a> 
+  | {% if book_summary.notes %} 
+  <a href="{{ site.baseurl }}/{{ link book_summary.notes }}/"> Full Summary </a> 
+  {% endif %}
+</p>
+  <p>{{ book_summary.content | markdownify }}</p>
+  {% if book_summary.notes %} 
+  <p> You can find my detailed summary <a href="{{ site.baseurl }}/{{link book_summary.notes}}/"> here </a>.
+  <hr>
+  {% endif %}
+
+{% endfor %}

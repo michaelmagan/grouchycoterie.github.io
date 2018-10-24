@@ -43,4 +43,4 @@ Don’t feel like why questions are challenging? That’s fine they don’t both
 ## Conclusion
 Ask more questions and provide fewer answers. Trust me, it paid off a lot.
 
-[CH]: https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692
+[CH]: https://www.amazon.com/Coaching-Habit-Less-Change-Forever/dp/0978440749
