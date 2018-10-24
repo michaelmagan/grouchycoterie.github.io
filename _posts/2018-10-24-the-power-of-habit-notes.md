@@ -1,3 +1,9 @@
+---
+layout: post
+title: The Power of Habit Notes
+tags: books,habits,psychology
+---
+
 _[The Power of Habit: Why We Do What We Do in Life and Busines][PoW]_ by Charles Duhigg covers the science and application of habit formation and alteration. Habits are formed in the oldest parts of brains and are responsible for our everyday activities, as well as, powering social movements. 
 
 ## Part I: Habits of Individuals
