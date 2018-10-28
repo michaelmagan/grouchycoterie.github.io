@@ -89,4 +89,13 @@ exclude:
 
 # Collections
 collections:
-  - book_summaries
+  book_summaries:
+    output: true
+    permalink: /book/summaries/:title
+
+defaults:
+  - scope:
+      path: ""
+      type: "book_summaries"
+    values:
+        layout: summary
