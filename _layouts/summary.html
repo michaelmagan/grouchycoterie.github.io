@@ -5,15 +5,17 @@ layout: default
 <article class="post">
   <h1>{{ page.title }}</h1>
   <p><b>by {{ author }}</b></p>
-  <a href="{{ page.amazon }}">Amazon</a> |
+  <a href="{{ page.amazon }}">Amazon</a> 
   {% if page.notes %} 
-  <a href="{{ site.base }}/{{ page.notes }}/"> Full Summary </a> 
+  | <a href="{{ site.base }}/{{ page.notes }}/"> Full Summary </a> 
   {% endif %}
 
   <div class="entry">
     {{ content }}
   </div>
-  <p> You can find my detailed summary <a href="{{ site.baseurl }}/{{ page.notes }}/"> here </a>.
+  {% if page.notes %} 
+  <p> You can find my detailed summary <a href="{{ site.baseurl }}/{{ page.notes }}/"> here </a>. 
+  {% endif %}
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
