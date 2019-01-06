@@ -7,17 +7,17 @@ permalink: /books/summaries/
 {% assign reverse_book_summaries = site.book_summaries | reverse %}
 <h2> Books </h2>
 Below are the list of books I have read. With links to short descriptions.
-<h3> 2018</h3>
+
 <p> Total: {{ reverse_book_summaries | size }}</p>
 
 {% assign nonfiction = reverse_book_summaries | where:"fiction", false %}
 <h4>Non-Fiction: {{ nonfiction | size }}</h4>
 {% for book in nonfiction %}
-  <p><b>{{ book.date | date: "%B" }}</b> - <a href="{{book.url}}">{{ book.title }}</a></p>
+  <p><b>{{ book.date | date: "%B %Y" }}</b> - <a href="{{book.url}}">{{ book.title }}</a></p>
 {% endfor %}
 {% assign fiction = reverse_book_summaries | where:"fiction", true %}
 <h4>Fiction: {{ fiction | size }}</h4>
 {% for book in fiction %}
-  <p><b>{{ book.date | date: "%B" }}</b> - <a href="{{book.url}}">{{ book.title }}</a></p>
+  <p><b>{{ book.date | date: "%B %Y" }}</b> - <a href="{{book.url}}">{{ book.title }}</a></p>
 {% endfor %}
 
