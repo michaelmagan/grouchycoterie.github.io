@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Announcing: Daily Dose of 2050
+title: Announcing Daily Dose of 2050
 tags: 2050
 ---
 
