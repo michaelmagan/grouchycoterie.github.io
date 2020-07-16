@@ -13,4 +13,8 @@ git commit -m "Adding $1."
 echo 'Pushing to master.'
 git push origin master
 
+echo 'Cleaning up'
+
+rm $1.bak
+
 
